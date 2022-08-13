@@ -3,6 +3,7 @@
 <!-- 
 KAYNAK
 Display : https://developer.mozilla.org/en-US/docs/Web/CSS/display
+CSS Kullanımı : https://www.w3schools.com/css/css_howto.asp
 -->
 
 <head>
@@ -10,6 +11,17 @@ Display : https://developer.mozilla.org/en-US/docs/Web/CSS/display
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Çıtır Patates Kızartmaları</title>
+    <style>
+        /* Internal CSS kullandık */
+        .heading {
+            background-color: brown;
+            color: aliceblue;
+            font-weight: bold;
+            border-radius: 1rem;
+            /* border-radius arka planın köşelerini ayarladık */
+            width: fit-content;
+        }
+    </style>
 </head>
 
 <body style="background-color: #cdd487;">
@@ -42,7 +54,7 @@ Display : https://developer.mozilla.org/en-US/docs/Web/CSS/display
             <br>
             <div>
                 <article>
-                    <h3 style="background: #cdd487;">Çıtır Patates Kızartması Tarifi İçin Malzemeler</h3>
+                    <h3 class="heading">Çıtır Patates Kızartması Tarifi İçin Malzemeler</h3>
                     <ul>
                         <li>6
                             adet orta boy
@@ -65,7 +77,7 @@ Display : https://developer.mozilla.org/en-US/docs/Web/CSS/display
                     </ul>
                 </article>
                 <article>
-                    <h3>Patates Kızartması Tarifinin Püf Noktası</h3>
+                    <h3 class="heading">Patates Kızartması Tarifinin Püf Noktası</h3>
                     <p>Aynı oranda ve eşit sürede kızarmaları için kesmiş olduğunuz patateslerin aynı kalınlık ve
                         uzunlukta
                         olmasına dikkat edin. <br> Patatesleri nişastasını bırakması için soğuk suda beklettiğinizde ve
@@ -73,11 +85,11 @@ Display : https://developer.mozilla.org/en-US/docs/Web/CSS/display
                         buladığınızda daha çıtır çıtır patates kızartması hazırlamış olacaksınız.</p>
                 </article>
                 <article>
-                    <h3>Patates Kızartması Tarifinin Pişirme Önerisi </h3>
+                    <h3 class="heading">Patates Kızartması Tarifinin Pişirme Önerisi </h3>
                     <p>Kızgın yağda kızartırsanız patatesler daha az yağ çekecektir.</p>
                 </article>
                 <article>
-                    <h3>Çıtır Patates Kızartması Nasıl Yapılır</h3>
+                    <h3 class="heading">Çıtır Patates Kızartması Nasıl Yapılır</h3>
                     <ol>
                         <li>Patateslerin kabuklarını soyun. </li>
                         <li>Patatesleri uzunlamasına doğrayıp parmak şeklinde patatesler hazırlayın. </li>
